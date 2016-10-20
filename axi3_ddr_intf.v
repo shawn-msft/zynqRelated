@@ -7,6 +7,7 @@
 //	it will jump to the start and overwrite. So make sure to read the data before any 
 //	overwrite occurs.
 
+
 //FIFO TO AXI DDR INTERFACE WITH ADAPTIVE BURST LENGTH
 
 module ddr_axi_interface#(
@@ -281,7 +282,7 @@ In fact never happend so far.
 */
 
 
-
+//	Standard FIFO , 1024 x 32bits. Sync stages : 2.
 bvalid_fifo u0(
 	.clk(clk),
 	.din(1'b0),
